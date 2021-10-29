@@ -78,6 +78,7 @@ justify-content: end;
 }
 .line-1{
     width:200%;
+    
 }
 .fast-1{
     position: relative;
@@ -136,6 +137,106 @@ justify-content: end;
 .about-text ul{
     padding-left: 0;
 }
+/* sec -3 */
+.sec-3{
+    padding-top: 60px;
+    
+}
+.sec-3 .item-1{
+    box-shadow: 2px 0 2px -2px #333;
+margin: 5px;
+}
+.sec-3 .item-1-box{
+    box-shadow: none!important;
+}
+.sec-3 .title{
+    font-size: 25px;
+    font-family: zen;
+    display: block;
+    margin-bottom: 10px;
+   
+}
+.sec-3 .row{
+    box-shadow: 0 -2px 2px -2px #333,0 2px 2px -2px #333;
+}
+.sec-3 .item-1 .item i{
+    
+    font-size: 30px;
+    color: white;
+}
+.sec-3 .item-1 .item span{
+    font-size: 25px;
+    font-family: zen;
+    display: block;
+    margin-top: 5px;
+}
+.sec-3 .item-1 .item .dec{
+    display: block;
+    font-family: zen;
+    margin-top: 5px;
+    text-align: left;
+}
+     /* section-4 */
+     .sec-4{
+        padding-top: 50px;
+    }
+    .sec-4 .title{
+        font-size: 25px;
+        font-family: zen;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .sec-4 .row-fast{
+        box-shadow: 0 -2px 2px -2px #333,0 2px 2px -2px #333;
+        
+
+    }
+    .sec-4 .row-2{
+        --bs-gutter-x: 0rem!important;
+    }
+    .sec-4 .row-2 .col-fast{
+        border-right: 3px solid gray;
+    }
+    .sec-4 .col-item-1{
+        margin: 5px;
+        box-shadow: -2px 0 2px -2px #333,2px 0 2px -2px #333;
+        
+        
+    }
+    .sec-4 .col-item-1-2{
+        box-shadow: -2px 0 2px -2px #333,2px 0 2px -2px #333, 0 -2px 2px -2px #333;
+    }
+    .sec-4 .col-item-1 .item-1 img{
+       
+        border: 1px solid gray;
+    }
+    .sec-4 .col-item-1 .item-1 button{
+        background-color: teal;
+        color: white;
+        font-family: zen;
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+    .sec-4 .col-item-1 .item-1 button i{
+        font-size: 13px;
+    }
+    .site-dec{
+        text-align: left;
+        overflow: hidden;
+    }
+    .site-dec span{
+        font-size: 17px;
+        font-family: zen;
+        font-weight: 600;
+    }
+    .site-dec small{
+        font-size: 17px;
+        font-family: zen;
+        
+    }
+    
+
 @media only screen and (max-width: 1000px) {
 
     .root-container{
@@ -177,6 +278,15 @@ position: unset;
         .about-img{
             margin-top: 10px;
         }
+        /* .section-3 */
+        .sec-3 .item-1 {
+            box-shadow: 0 2px 2px -2px #333;
+        }
+        /* section -4 */
+        .sec-4 .col-item-1{
+            box-shadow: -2px 0 2px -2px #333,2px 0 2px -2px #333, 0 -2px 2px -2px #333;
+        }
+   
       
   }
   @media only screen and (min-width: 768px) {
