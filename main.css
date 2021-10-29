@@ -110,9 +110,15 @@ justify-content: end;
     font-size: 30px;
     display: block;
 }
+
+.about-text ul {
+    margin-top: 10px;
+}
+
 .about-text small{
     color: #292929;
     font-family: zen;
+    margin-top: 10px;
 }
 .about-text  ul li{
     list-style-type:none;
