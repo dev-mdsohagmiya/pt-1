@@ -286,6 +286,9 @@ position: unset;
         .sec-4 .col-item-1{
             box-shadow: -2px 0 2px -2px #333,2px 0 2px -2px #333, 0 -2px 2px -2px #333;
         }
+        .col-item-1-create{
+            box-shadow: -2px 0 2px -2px #333,2px 0 2px -2px #333!important;
+        } 
    
       
   }
